@@ -33,7 +33,7 @@ setwd("<folder containing both files>")
 source("reproduce_models.R")
 ```
 
-Tested with R 4.5.1, glmnet 4.1-10, pROC 1.19.0.1. The script prints Table 3, the DeLong p-values, the Model 3 coefficients (Supplementary Table S4), and the bootstrap results (Supplementary Tables S5–S6). Bootstrap estimates vary slightly between runs because of resampling; with the default seed the script gives an optimism-corrected AUC of 0.838 for Model 3 (manuscript: 0.841) and feature selection frequencies within ±5 percentage points of the reported values.
+Tested with R 4.5.1 and 4.6.2, irr 0.85, glmnet 4.1-10, pROC 1.19.0.1. The script prints Table 3, the DeLong p-values, the Model 3 coefficients (Supplementary Table S4), and the bootstrap results (Supplementary Tables S5–S6). Bootstrap estimates vary slightly between runs because of resampling; with the default seed the script gives an optimism-corrected AUC of 0.838 for Model 3 (manuscript: 0.841) and feature selection frequencies within ±5 percentage points of the reported values.
 
 ## Not included
 
